@@ -67,3 +67,4 @@ lasso_cv = lm.LassoCV(alphas = allAlphas)
 lasso_cv.fit(data, status)
 # The amount of penalization chosen by cross validation
 lasso_cv.alpha_
+
