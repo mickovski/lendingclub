@@ -71,3 +71,4 @@ score <- model %>% evaluate(x_test, y_test, batch_size = length(y_test))
 score$mean_squared_error
 score$mean_absolute_error
 
+
